@@ -27,6 +27,8 @@ date = dt.datetime(year=2020, month=12, day=31, hour=0)
 s = date.strftime('%d-%m-%Y')
 print(s)
 
+prc = pd.read_csv(CSVLOC)
+print(prc)
 
 # Output:
 #  '2020-12-31'
