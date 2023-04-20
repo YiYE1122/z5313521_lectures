@@ -64,4 +64,4 @@ print(the_index)
 # ----------------------------------------------------------------------------
 # Using the series we created above...
 
-print(ser.is_monotonic_increasing)
+print(1+ser)

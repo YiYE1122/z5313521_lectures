@@ -99,3 +99,7 @@ print(res)
 
 print(groups.groups.values())
 list=[]
+
+column_names=df.columns[:-1]
+print(column_names)
+print (df)

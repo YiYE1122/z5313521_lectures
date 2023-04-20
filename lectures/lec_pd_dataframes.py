@@ -140,4 +140,5 @@ print(col0)
 new_ser = pd.Series(data=[1,3,2], index=['a', 'c', 'b'])
 
 # This will return 'False'
-print(df.is_monotonic_increasing)
+
+ss=new_df.iloc[1]-new_df.iloc[0]
